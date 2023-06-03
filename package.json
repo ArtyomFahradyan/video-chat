@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +17,8 @@
     "peer": "^0.5.3",
     "socket.io": "^2.3.0",
     "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.36.1"
   }
 }
